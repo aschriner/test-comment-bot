@@ -14,4 +14,4 @@ jobs:
         run: pwd && ls
       - name: Whatever
         shell: bash
-        run: node ./.github/scripts/changed_files.ts 
+        run: bash ./.github/scripts/scrubber.sh
